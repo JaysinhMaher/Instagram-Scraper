@@ -12,7 +12,7 @@ import time
 
 
 def connect():
-    driver = webdriver.Chrome('C:/Users/jaysi/Desktop/Programming/Selenium chrome driver/chromedriver.exe')
+    driver = webdriver.Chrome('insert path to chrome web driver here')
     driver.get('https://www.instagram.com/')
     return driver
 
